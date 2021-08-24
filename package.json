@@ -1,0 +1,23 @@
+{
+  "name": "test-jest",
+  "version": "0.0.0",
+  "description": "testing with jest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "assessment",
+    "test"
+  ],
+  "author": "Issam",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^27.0.6"
+  }
+}
